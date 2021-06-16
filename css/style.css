@@ -149,7 +149,7 @@ section h3 {
 }
 
 .about img {
-    margin-top: -30px;
+    margin-top: -45px;
     max-width: 420px;
     padding-top: 50px;
 }
@@ -216,7 +216,7 @@ textarea:focus {
 }
 
 .contact .btn-block {
-    margin-left: 200px;
+    margin-left: 67%;
     text-transform: uppercase;
     font-size: 15px !important;
     font-weight: 400;
@@ -246,6 +246,19 @@ textarea:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     outline-width: 0
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px 0;
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+footer p {
+    padding-top: 10px;
+    letter-spacing: 2px;
 }
 
 /* DESKTOP VERSION */

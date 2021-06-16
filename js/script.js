@@ -74,3 +74,12 @@ function validate(val) {
 
     return flag;
 }
+
+// ! GSAP PLUGIN
+gsap.registerPlugin(TextPlugin);
+
+gsap.to(".aboutMe-Text", {
+    scrollTrigger: ".aboutMe-Text",
+    duration: 10,
+    text: "I was born in the city of Samarinda, East Kalimantan - Indonesia. I started liking Web Programming and learning it when I was in junior high school. And I created this website for my personal interest which I will fill with my work."
+})

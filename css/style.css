@@ -227,9 +227,11 @@ img {
     margin-bottom: var(--mb-2);
     font-size: 1.5rem;
     color: var(--second-color);
+    transition: .3s;
 }
 
 .home__social-icon:hover {
+    transition: .3s;
     color: var(--first-color);
 }
 
@@ -247,10 +249,12 @@ img {
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
+    transition: .5s;
 }
 
 .button:hover {
     box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+    transition: .5s;
 }
 
 /*! About */
